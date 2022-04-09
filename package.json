@@ -1,0 +1,15 @@
+{
+  "name": "calcjs",
+  "version": "1.0.0",
+  "description": "calc",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/mAbdeen9/simpleCalculator.git"
+  },
+  "author": "Mohamed Abden",
+  "license": "ISC"
+}

@@ -1,0 +1,107 @@
+/* Golbal Rules */
+*,
+*::before,
+*::after {
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+}
+
+:root {
+  --top-color: #2e323d;
+  --body-color: #1b1b1d;
+  --acBtn-color: #fed6ff;
+  --MathBtn-color: #a3acc3;
+  --numberBtn-color: #222328;
+}
+body {
+  background-color: #202124;
+}
+
+.mainBox {
+  text-align: center;
+  margin: 5px auto;
+  width: 420px;
+  height: 670px;
+  background-color: var(--body-color);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0 0 10% 10%;
+  padding: 3px;
+}
+
+.screen-box {
+  background-color: var(--top-color);
+  width: 100%;
+  height: 37%;
+  border-radius: 0 0 10% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.btn-box {
+  background-color: var(--body-color);
+  width: 100%;
+  min-height: 63%;
+  border-radius: 0 0 10% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-between;
+  gap: 2px;
+  margin-top: 10px;
+  padding: 3px;
+}
+
+.btn-box button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--numberBtn-color);
+  color: white;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.btn-box button:hover {
+  opacity: 0.7;
+}
+
+.span-two {
+  width: 200px;
+  background-color: var(--acBtn-color);
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 2.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#math {
+  background-color: var(--MathBtn-color);
+}
+
+.current {
+  word-wrap: break-word;
+  word-break: break-all;
+  letter-spacing: 4px;
+}
+
+.total {
+  word-wrap: break-word;
+  word-break: break-all;
+}
